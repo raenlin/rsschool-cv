@@ -1,0 +1,35 @@
+
+@import "base";
+@import "constants";
+
+
+.header-nav {
+  margin: 20px 30px;
+
+  &-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;      
+  }
+}
+
+.left-column {
+  background-color: $color-left;
+
+  &-wrapper {
+    margin: 50px 30px;
+  }
+}
+
+.photo {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.line {
+  margin: 10px 0;
+  border-top: 3px solid $color-line;
+}
+
+

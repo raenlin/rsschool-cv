@@ -1,11 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>CV</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <title>CV</title>
 </head>
 <body>
-<h1>Darya Pchelintseva</h1>
+  <div class="wrapper">
+    <header>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Contacts</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Skills</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="left-column">
+        <div class="left-column-wrapper">
+          <section class="profile">
+            <img src="./photo.png" class="photo" alt="My photo" width="250">        
+            <h1>Darya Pchelintseva</h1>
+            <h2>Frontend Developer</h2>
+            <div class="line"></div>
+          </section>
+          <section class="contacts">
+            <h3>Contacts</h3>
+            <ul class="contact-list">
+              <li>+7 950 008 66 03</li>
+              <li>raelin@mail.ru</li>
+            </ul>
+          </section>
+          <section class="about">
+            <h3>About</h3>
+            <p>After finishing school I entered Saint-Petersburg University and started to study mathematics. 
+              After a year of study I left University and entered another, which I successfuly finished as a sound engineer. 
+              Two years I worked at a sound recording studio and then I went on maternity leave. 
+              During that I graduated from SMM courses and since then I have been working as an SMM specialist.
+
+              Half a year ago I decided to change my life and started to learn HTML, CSS and Javascript on my own. 
+              I believe in myself and my strength.
+            </p>
+          </section>
+          <footer>
+            <ul class="footer-list">
+              <li>GH</li>
+              <li>TG</li>
+              <li>Logo</li>
+              <li>2023</li>
+            </ul>
+          </footer>
+        </div>  
+      </div>
+      <div class="right-column">
+        <div class="right-column-wrapper">
+          <section class="education">
+            <h3>Education</h3>
+            <ul class="education-list">
+              <li>Saint-Petersburg State University (not finished)</li>
+              <li>Saint-Petersburg University of Humanities and Social Sciences (finished)</li>
+              <li>SMM Courses</li>
+              <li>RSSchool (in progress)</li>
+            </ul>
+          </section>
+          <section class="skills">
+            <h3>Skills</h3>
+            <ol class="skills-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Figma</li>
+              <li>VS Code</li>
+              <li>GitHub</li>
+            </ol>
+          </section>
+          <section class="language">
+            <h3>Language</h3>
+            <p></p>
+          </section>
+        </div>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
