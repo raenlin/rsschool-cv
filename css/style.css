@@ -4,11 +4,12 @@
 }
 
 html {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
+  color: #292828;
   background-color: #FAF0E6;
 }
 
@@ -35,6 +36,13 @@ h2 {
   font-size: x-large;
   text-align: center;
   padding: 10px 0 0 0;
+}
+
+h3 {
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 50px 0 0 0;
 }
 
 .wrapper {
@@ -74,4 +82,34 @@ main {
 .line {
   margin: 10px 0;
   border-top: 3px solid #696969;
+}
+
+.contact-list {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.about-text {
+  text-align: justify;
+  padding: 20px 0 0 0;
+}
+
+.footer-list {
+  margin: 60px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-column-wrapper {
+  margin: 0 30px 50px 30px;
+}
+
+.education-list {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.skills-list {
+  margin: 0 0 0 20px;
+  padding: 20px 0 0 0;
 }/*# sourceMappingURL=style.css.map */
