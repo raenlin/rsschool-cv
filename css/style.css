@@ -4,13 +4,13 @@
 }
 
 html {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
   color: #292828;
-  background-color: #FAF0E6;
+  background-color: #e5b8b8;
 }
 
 a {
@@ -50,6 +50,7 @@ h3 {
   max-width: 1000px;
   background-color: #FFFFFF;
   margin: 0 auto;
+  box-shadow: 10px 10px 10px #b38d8d;
 }
 
 main {
