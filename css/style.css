@@ -66,6 +66,10 @@ main {
   justify-content: space-between;
 }
 
+.header-nav-list > li:hover {
+  color: #DCDCDC;
+}
+
 .left-column {
   background-color: #DCDCDC;
 }
@@ -100,6 +104,10 @@ main {
   justify-content: space-between;
 }
 
+.footer-list > li:nth-child(1):hover {
+  color: #696969;
+}
+
 .right-column-wrapper {
   margin: 0 30px 50px 30px;
 }
@@ -112,4 +120,9 @@ main {
 .skills-list {
   margin: 0 0 0 20px;
   padding: 20px 0 0 0;
+}
+
+.language-list {
+  padding: 20px 0 0 0;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
