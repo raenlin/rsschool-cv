@@ -59,3 +59,15 @@ main {
   display: grid;
   grid-template-columns: 1.5fr 2fr;
 }
+
+code {
+ color: #7d5959; 
+}
+
+.shelter-link {
+  color: #7d5959; 
+}
+
+.shelter-link:hover {
+  color: #c78d8d;
+}
