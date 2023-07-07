@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <title>CV</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li><a href="#contact-list">Contacts</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#language">Language</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="left-column">
+        <div class="left-column-wrapper">
+          <section class="profile">
+            <a id="profile"></a>
+            <img src="./photo.png" class="photo" alt="My photo" width="250">        
+            <h1>Darya Pchelintseva</h1>
+            <div class="line"></div>
+            <h2>Frontend Developer</h2>
+          </section>
+          <section class="contacts">
+            <a id="contact-list"></a>
+            <h3>Contacts</h3>
+            <div class="line"></div>
+            <ul class="contact-list">
+              <li>+7 950 008 66 03</li>
+              <li>raelin@mail.ru</li>
+            </ul>
+          </section>
+          <section class="about">
+            <a id="about"></a>
+            <h3>About</h3>
+            <div class="line"></div>
+            <p class="about-text">After finishing school I entered Saint-Petersburg University and started to study mathematics. 
+              After a year of study I left University and entered another, which I successfuly finished as a sound engineer. 
+              Two years I worked at a sound recording studio and then I went on maternity leave. 
+              During that I graduated from SMM courses and since then I have been working as an SMM specialist.
+
+              Half a year ago I decided to change my life and started to learn HTML, CSS and Javascript on my own. 
+              I believe in myself and my strength.
+            </p>
+          </section>
+          <footer>
+            <ul class="footer-list">
+              <li>
+                <a href="https://github.com/raenlin" target="blank">
+                  GitHub
+                </a>
+              </li>              
+              <li>
+                <a href="https://rs.school/js/" target="blank">
+                  <img src="./logo_rs.svg" alt="Logo RSSchool" width="70">
+                </a>
+              </li>
+              <li>2023</li>
+            </ul>
+          </footer>
+        </div>  
+      </div>
+      <div class="right-column">
+        <div class="right-column-wrapper">
+          <section class="education">
+            <h3>Education</h3>
+            <div class="line"></div>
+            <ul class="education-list">
+              <li>Saint-Petersburg University of Humanities and Social Sciences (Master Degree)</li>
+              <li>SMM Courses</li>
+              <li>RSSchool (in progress)</li>
+            </ul>
+          </section>
+          <section class="skills">
+            <h3>Skills</h3>
+            <div class="line"></div>
+            <ol class="skills-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Figma</li>
+              <li>VS Code</li>
+              <li>GitHub</li>
+            </ol>
+          </section>
+          <section class="code-project">
+            <a id="experience"></a>
+            <h3>Code Example and Projects</h3>
+            <div class="line"></div>
+            <p>Codewars solution:</p>
+            <code>
+              <br>function bingo(ticket, win){
+                <br>&#160;let miniWins = 0;
+              
+                <br>&#160;for(let i=0; i&#60;ticket.length; i++) {
+                    <br>&#160;&#160;for(let k=0; k&#60;ticket[i][0].length; k++) {
+                        <br>&#160;&#160;&#160;if(ticket[i][0][k].charCodeAt() == ticket[i][1]) {
+                            <br>&#160;&#160;&#160;miniWins += 1;
+                        <br>&#160;&#160;&#160;}    
+                    <br>&#160;&#160;}
+                <br>&#160;}
+                <br>&#160;if(miniWins >= win) {
+                  <br>&#160;return 'Winner!'
+                <br>&#160;&#160;} else return 'Loser!'
+              <br>&#160;}
+            </code>
+            <br><br><p>Shelter page layout:</p>
+            <a href="https://rolling-scopes-school.github.io/raenlin-JSFE2023Q1/shelter/main/main.html" class="shelter-link" target="blank">Shelter</a>
+          </section>
+          <section class="language">
+            <h3>Language</h3>
+            <a id="language"></a>
+            <div class="line"></div>
+            <ul class="language-list">
+              <li>Russian (native)</li>
+              <li>English (B2)</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
