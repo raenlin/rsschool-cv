@@ -1,0 +1,73 @@
+@import "constants";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: $color-font;
+  background-color: $color-body;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: xx-large;
+  text-align: center;
+  padding: 40px 0 0 0;
+}
+
+h2 {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: x-large;
+  text-align: center;
+  padding: 10px 0 0 0;
+}
+
+h3 {
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
+.wrapper {
+  padding: 10px 0 0 0;
+  max-width: 1000px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  box-shadow: 10px 10px 10px #b38d8d;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+}
+
+code {
+ color: #7d5959; 
+}
+
+.shelter-link {
+  color: #7d5959; 
+}
+
+.shelter-link:hover {
+  color: #c78d8d;
+}
